@@ -4,12 +4,14 @@
 		<title>SII </title>
 	</head>
 	<body>
-		<form id="form1" name="form1" method="POST" action="pagina1.php">
+		<form id="form1" name="form1" method="GET" action="pagina1.php">
 			<table border="1" align="center">
 				<tr>
-					<th colspan="2" align="center">Login</th>
+					<!--Table header :D -->
+					<th colspan="2" align="center" style="background: #000FFF;">Login</th>
 				</tr>
 				<tr>
+					<!-- Table row-->
 					<td>User </td>
 					<td>
 						<input type="text" id="usr" name="usr" maxlength="35" minlength="5" size="35" placeholder="Username">					
@@ -17,17 +19,45 @@
 					
 				</tr>
 				<tr>
+					<!-- Table row-->
 					<td>Password</td>
 					<td>
 						<input type="password" id="pwd" name="pwd" maxlength="35" minlength="5" size="35" placeholder="Password">
 					</td>
 
 				</tr>
+				<tr>
+					<!-- Table row-->
+					<td>Account type</td>
+					<td>
+						<select id="typeUrs" name="typeUsr">
+							<option value="1" >User</option>
+							<option value="2">Admin</option>
+						</select>
+					</td>
+	
+					
+					
+				</tr>
+				<tr>
+					<!-- Table row-->
+					<td>Sex</td>
+					<td>
+				
+					<input type="radio" id="female" name="female">Femenino
+					<input type="radio" id="male" name="male">Masculino
+					</td>
+				</tr>
+				
+
 				<tr> <td colspan="2" align="center"><input type="submit" id="btn"  value="Submit"></td> </tr>
 			</table> 			
 		
 		</form>
 
+
+		<a href="https://www.google.com"> Click here <a/>
+		<a href="paginax.php"><img src="img.jpg" width="100"> </a>
 		<h1>Bienvenidos al curso de programacion web</h1>
 		<h2>Bienvenidos al curso de programacion web</h2>
 		<h3>Bienvenidos al curso de programacion web</h3>
