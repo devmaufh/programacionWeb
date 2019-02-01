@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head> <title> Tarea1</title></head>
+	<body>
+		<form id="form1" name="form1" method="POST" action="tarea.php">
+			<table border="1" align="center">
+				<tr>
+					<!-- Table Row -->
+					<th colspan="2" align="center">Registro </th>
+				</tr>
+				<tr>
+					<td> Nacionalidad</td>
+					<td>
+						<select id="country" name="country">
+							<option value="mx">Mexico</option>
+							<option value="col">Colombia</option>
+							<option value="arg">Argentina</option>
+							<option value="chi">Chile</option>
+							<option value="eua">Estados unidos</option>
+							<option value="can">Canada</option>
+							<option value="holanda">Holanda</option>
+						</select>
+						
+					</td>
+
+			</tr>
+			<tr>
+				<td> E-mail</td>
+				<td>
+					<input type="text" id="mail" name="mail" minlength="5" size="35">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>
+					<input type="text" id="name" name="name" minlength="5" size="35" maxlength="35">
+				</td>
+			</tr>
+			<tr>
+				<td>Sex</td>
+				<td>
+					<input type="radio" id="female" name="female"> Female
+					<input type="radio" id="male" name="male"> Male
+				</td>
+			</tr>
+			<tr>
+				<td>Birthday</td>
+				<td> 
+					<input type="date" id="date" name="date">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><a href="register.php">Registrar</a>
+					<input type="submit" value="Submit">
+				</td>
+			</tr>
+
+
+
+			</table>
+
+		</form>
+
+
+
+
+
+	</body>
+
+</html>
+
