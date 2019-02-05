@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> BECA</title>
+	</head>
+	<body>
+		<form id="form1" name="form1" method="POST" action="new.php">
+			<table border="1" align="center">
+				<tr> <th colspan="2" align="center"> BECAS </th></tr>
+				<tr>
+					<td> No Control: </td>
+					<td>
+						<input type="text" id="noControl" name="noControl" size="8" minlength="8" required>
+
+					</td>					
+				</tr>
+				<tr>
+					<td>Nombre estudiante</td>
+					<td>
+						<input type="text" id="name" name="name" maxlength="35" minlength="5" size="35">
+					</td>
+
+				</tr>
+				<tr> 
+					<td>Sexo</td>
+					<td>
+						<input type="radio" id="sex" name="sex" value="Femenino">Femenino
+						<input type="radio" id="sex" name="sex" value="Masulino">Masculino
+					</td>
+				</tr>
+				<tr>
+					<td>Carrera</td>
+					<td>
+						<select>
+							<option id="ge" name="ge">Gestion Empresarial</option>
+							<option id="tics" name="tics">Tecnologias de la informacion y comunicacion</option>
+							<option id="hidrologica" name="hidrologica">Hidrologica</option>
+							<option id="agronomia" name="agronomia">Agronomia</option>
+							<option id="industras" name="industras">Industrias alimentarias</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Semestre</td>
+					<td>
+						<select>
+							<option id="1" name="1">1</option>
+							<option id="2" name="2">2</option>
+							<option id="3" name="3">3</option>
+							<option id="4" name="4">4</option>
+							<option id="5" name="5">5</option>
+							<option id="6" name="6">6</option>
+							<option id="7" name="7">7</option>
+							<option id="8" name="8">8</option>
+							<option id="9" name="9">9</option>
+							<option id="10" name="10">10</option>
+							<option id="11" name="11">11</option>
+							<option id="12" name="12">12</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha de nacimiento</td>
+					<td>
+						<input type="date" id="nac" name="nac">
+					</td>
+				</tr>
+				<tr>
+					<td>Ingresos padre</td>
+					<td>
+						<input type="text" id="ingresos" name="ingresos" size="7" maxlength="7" minlength="1">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="Guardar">
+						<input type="submit" value="Actualizar">
+						<input type="submit" value="Eliminar">
+					</td>
+				</tr>
+
+
+				
+
+			</table>
+
+
+
+		</form>
+		
+	</body>
+
+</html>
+
