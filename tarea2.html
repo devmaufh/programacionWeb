@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarea 2</title>
+</head>
+<body>
+    <form id="form1" name="form1" method="GET" action="new.php">
+        <table align="center">
+            <tr><th>New Product</th></tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="number" name="price" id="price"></td>
+            </tr>
+            <tr>
+                <td>Released on</td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td><select name="category" id="category">
+                    <option value="c1">Category1</option>
+                    <option value="c3">Category3</option>
+                    <option value="c4">Category4</option>
+                    <option value="c5">Category5</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td><input type="number" name="rating" id="rating"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" name="dis" id="dis">Discontinued
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Create product">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
