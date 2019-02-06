@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Pagina3 </title>
+	</head>
+	<body>
+		<form id="form1" name="form1" method="GET" action="new.php">
+			<table border=".5" align="center">
+				<tr> <th colspan="2" align="center"><h2><img src="img.jpg" width="50"> REGISTRO</h2> </th></tr>
+				<tr> 
+					<td>Correo</td>
+					<td>
+						<input type="email" size="50" maxlength="50" minlength="5" id="email" name="email"  placeholder="domain@example.com">
+					</td>
+				</tr>
+				<tr>
+					<td> Nombre</td>
+					<td>
+						<input type="text" size="50" maxlength="50" id="numbre" name="nombre" minlength="5">
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha alta</td>
+					<td>
+						<input type="date" id="date" name="date">
+					</td>
+				</tr>
+				<tr>
+					<td> Estado</td>
+					<td>
+						<select id="state" name="state">
+							<option id="gto" name="gto">Guanajuato</option>
+							<option id="qro" name="qro">Queretaro</option>
+							<option id="ztc" name="ztc">Zacatecas</option>
+							<option id="mty" name="mty">Monterrey</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Sexo</td>
+					<td>
+						<select id="sex" name="sex">
+							<option id="sex" name="sex" value="male">Hombre</option>
+							<option id="sex" name="sex" value="female">Mujer</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>
+						<input type="password" id="pass" name="pass" maxlength="50" size="50">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2" align="center"> <a href="http://www.google.com">Registrar</a> <input type="submit"  id="btn" name="btn" value="Enviar">
+					</td>
+				</tr>
+			</table>
+
+		</form>
+	</body>
+</html>
