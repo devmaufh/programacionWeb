@@ -1,0 +1,6 @@
+html:5
+header>nav>ul>li*5>a:link7
+section.clase#id
+section{content here :D}
+section{content here}[title="atributo"]
+header>nav>ul>li*5>a:link[target="_blank"]{menu #$}

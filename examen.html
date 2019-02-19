@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exámen</title>
+</head>
+<body>
+    <form action="actExamen.php" id="frm" name="frm" method="GET">
+        <table  draggable="true" align="center">
+            <tr>
+                <td colspan="2" align="center"><h1><img src="img.jpg" width="50" alt="">Alta de Socio<img src="img.jpg" width="50" alt=""></h1> </td>
+            </tr>
+            <tr>
+                <td>correo</td>
+                <td><input type="email" name="mail" id="mail" maxlength="50" size="50"  placeholder="example@domain.com" ></td>
+            </tr>
+            <tr>
+                <td>Fecha de registro</td>
+                <td><input type="date" name="fech" id="fech" ></td>
+            </tr>
+            <tr>            
+                <td>Nombre</td>
+                <td><input type="text" name="name" id="name" size="50" minlength="5" maxlength="50"  placeholder="Ingresa tu nombre con apellidos"></td>
+            </tr>
+            <tr>
+                <td>Sueldo</td>
+                <td><input type="number" name="sueldo" id="sueldo" maxlength="14" minlength="1" size="14" placeholder="Ingresa tu salario"></td>
+            </tr>
+            <tr>
+                <td>Departamento</td>
+                <td>
+                    <select name="dpto" id="dpto">
+                        <option value="infor">Informatica</option>
+                        <option value="cont">Contabilidad</option>
+                        <option value="rh">Recursos humanos</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td><input type="radio" name="sex" id="sex" value="man">Hombre
+                    <input type="radio" name="sex" id="sex" value="women">Mujer
+                </td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td>
+                    <input type="password" name="pass" id="pass" required placeholder="Ingresa tu contraseña" minlength="5" maxlength="50" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="http://google.com" target="_blank">Registrar</a>
+                    <input type="submit"  id="sub" name="sub" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>    
+</body>
+</html>

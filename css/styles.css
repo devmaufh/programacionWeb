@@ -1,0 +1,33 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    width: 25%;
+    border: 1px solid tomato;
+    margin: 20px;
+    padding: 20px;
+    background: tomato;
+
+}
+label{
+    font-size: 20px;
+    color:white;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid  slategray;
+    color: slategrey;
+}
+input[type="submit"]{
+    margin-bottom: 0px;
+    background: gold;
+    color: white;
+    font-size: 25px;
+}
+input[type="submit"]:hover{
+    background: greenyellow;
+}
