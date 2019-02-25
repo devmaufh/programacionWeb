@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Beca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css">
+</head>
+
+<body>
+    <div class="section container">
+        <div class="container">
+            <div class="row">
+                <form class="col s12" id="form1" name="form1">
+                    <div class="row card-panel white">
+                        <div class="col s12 m12">
+                            <h3>Becas</h3>
+                        </div>
+                        <div class="input-field col s12 m2">
+                            <input type="number " name="control" id="control" class="validate" data-length="8" required>
+                            <label for="control">No. Control</label>
+                        </div>
+                        <div class="input-field col s12 m10">
+                            <input type="text" class="validate" name="name" id="name" data-length="50" required>
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="input-field col m12 s12">
+                            <label>Sexo</label><br>
+                            <p>
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="h">
+                                    <span>Masculino</span>
+                                </label>
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="m">
+                                    <span>Mujer</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <select id="dpto" name="dpto" required>
+                                <option id="1" name="1">Gestion Empresarial</option>
+                                <option id="2" name="2">Tecnologias de la informacion y comunicacion</option>
+                                <option id="3" name="3">Hidrologica</option>
+                                <option id="4" name="4">Agronomia</option>
+                                <option id="5" name="5">Industrias alimentarias</option>
+                            </select>
+                            <label>Selecciona tu departamento</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <select id="sem" name="sem" required>
+                                <option id="1" name="1">1</option>
+                                <option id="2" name="2">2</option>
+                                <option id="3" name="3">3</option>
+                                <option id="4" name="4">4</option>
+                                <option id="5" name="5">5</option>
+                                <option id="6" name="6">6</option>
+                                <option name="7" id="7">7</option>
+                                <option name="8" id="8">8</option>
+                            </select>
+                            <label>Semestre</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="number" name="fsalary" id="fsalary" required>
+                            <label for="fsalary">Ingresos mensuales</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input type="text" class="datepicker" required>
+                            <label for="datepicker">Fecha de nacimiento</label>
+                        </div>
+
+                        <div class="col s7 m9"></div>
+                        <div class="input-field col s5 m3">
+                            <button class="btn waves-effect waves-light btn-large" type="submit"
+                                name="action">Enviar</button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

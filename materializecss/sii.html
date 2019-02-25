@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css">
+</head>
+
+<body>
+    <div class="section container">
+        <div class="container">
+            <div class="row">
+                <form class="col s12" id="form1" name="form1">
+                    <div class="row card-panel white">
+                        <div class="col s12 m12">
+                            <h3 class="teal-text" align="center">Login</h3>
+                        </div>
+                        <div class="input-field col s12 m6 ">
+                            <input type="text" name="usr" id="usr" class="teal-text validate" data-length="20" required>
+                            <label for="usr">Nombre de usuario</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input type="password" id="pass" name="pass" class="validate teal-text" data-length="10"
+                                required class="text-teal">
+                            <label for="pass">Contraseña</label>
+                        </div>
+                        <div class="input-field col s12 m12">
+                            <Select id="user_type" name="user_type">
+                                <option class="teal-text" value="1">Usuario</option>
+                                <option class="teal-text" value="2">Administrador</option>
+                            </Select>
+                            <label for="user_type">Tipo de cuenta</label>
+                        </div>
+                        <div class="input-field col m12 s12">
+                            <label>Sexo</label><br>
+                            <p>
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="h">
+                                    <span>Hombre</span>
+                                </label>
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="m">
+                                    <span>Mujer</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s8 m10"></div>
+                        <div class="input-field col s4 m2">
+                            <button class="btn waves-effect waves-light">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

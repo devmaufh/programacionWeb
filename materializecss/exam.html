@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Examen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css">
+</head>
+
+<body>
+    <div class="section container">
+        <div class="container">
+            <div class="row">
+                <form class="col s12" id="form1" name="form1">
+                    <div class="row card-panel white">
+                        <div class="col s12 m12" align="center">
+                            <h1 class="red-text">Alta socio</h1>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="email" name="mail" id="mail" class="validate" required>
+                            <label for="mail">Correo electrónico</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="text" name="datepicker" id="datepicker" class="datepicker">
+                            <label for="datepicker">Fecha de registro</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="text" name="name" id="name" minlength="5">
+                            <label for="name">Nombre completo</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="number" name="salary" id="salary" minlength="1" maxlength="10">
+                            <label for="salary">Salario</label>
+                        </div>
+                        <div class="input-field col s12 m12">
+                            <select name="dpto" id="dpto">
+                                <option value="1">Sistemas</option>
+                                <option value="2">Seguridad informática</option>
+                                <option value="3">Redes</option>
+                                <option value="4">Planeación</option>
+                            </select>
+                            <label for="dpto">Seleccione el departamento</label>
+                        </div>
+                        <div class="input-field col s12 m12">
+                            <span>Selecciona el sexo</span>
+                            <p id="select_sex" name="select_sex">
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="m">
+                                    <span>Mujer</span>
+                                </label>
+
+                                <label>
+                                    <input class="with-gap" type="radio" name="sex" id="sex" value="h">
+                                    <span>Hombre</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field col s12 m12">
+                            <input type="password" name="pass" id="pass">
+                            <label for="pass">Contraseña</label>
+                        </div>
+                        <div class="col s5 m8"></div>
+                        <div class="input-field col s7 m4">
+                            <a class="red-text"href="#">Registrar</a>
+                            <button class="btn waves-effect waves-light  red" type="submit"
+                                name="action">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
